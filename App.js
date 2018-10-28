@@ -1,14 +1,8 @@
-import React, { Fragment } from 'react'
-import Header from './src/components/Header'
+import React from 'react'
 import Content from './src/components/Content'
-import Footer from './src/components/Footer'
 
 const App = () => (
-  <Fragment>
-    <Header />
-    <Content />
-    <Footer />
-  </Fragment>
+  <Content />
 )
 
 export default App
