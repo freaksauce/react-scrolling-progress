@@ -7,7 +7,7 @@
     "dev": "parcel index.html",
     "build": "parcel build ./src/components/react-scrolling-progress/index.js",
     "test": "yarn test",
-    "prepare": "yarn build"
+    "prepare": "rm -rf dist yarn build"
   },
   "repository": {
     "type": "git",
