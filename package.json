@@ -4,7 +4,7 @@
   "description": "Component to indicate the scrolling progress of a page",
   "main": "./dist/index.js",
   "scripts": {
-    "dev": "parcel index.html --open",
+    "dev": "parcel index.html",
     "build": "parcel build ./src/components/react-scrolling-progress/index.js",
     "test": "yarn test",
     "prepare": "yarn build"
@@ -29,11 +29,16 @@
   },
   "homepage": "https://github.com/freaksauce/react-scrolling-progress#readme",
   "dependencies": {
-    "eslint": "^5.8.0",
+    "eslint": "^5.3.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "frame-throttle": "^3.0.0",
     "react": "^16.7.0-alpha.0",
     "react-dom": "^16.7.0-alpha.0"
   },
   "devDependencies": {
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-react": "^7.11.0",
     "parcel-bundler": "^1.10.3"
   }
 }
