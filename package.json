@@ -1,0 +1,39 @@
+{
+  "name": "react-scrolling-progress",
+  "version": "0.0.1",
+  "description": "Component to indicate the scrolling progress of a page",
+  "main": "./dist/index.js",
+  "scripts": {
+    "dev": "parcel index.html --open",
+    "build": "parcel build ./src/components/react-scrolling-progress/index.js",
+    "test": "yarn test",
+    "prepare": "yarn build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/freaksauce/react-scrolling-progress.git"
+  },
+  "keywords": [
+    "progress",
+    "scrolling",
+    "window",
+    "event",
+    "eventlistener",
+    "react",
+    "hooks"
+  ],
+  "author": "Jon Bloomer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/freaksauce/react-scrolling-progress/issues"
+  },
+  "homepage": "https://github.com/freaksauce/react-scrolling-progress#readme",
+  "dependencies": {
+    "eslint": "^5.8.0",
+    "react": "^16.7.0-alpha.0",
+    "react-dom": "^16.7.0-alpha.0"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.10.3"
+  }
+}
