@@ -5,7 +5,7 @@ import DummyText from './DummyText'
 const Content = () => (
   <main>
     <ReactScrollingProgress />
-    <h1>This is the main content</h1>
+    <h1>This is some long dummy content</h1>
     <DummyText />
   </main>
 )
