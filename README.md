@@ -1,6 +1,6 @@
 # React Scrolling Progress
 
-This is a component I created to test the new `React 16.7.0-alpha.0` Hooks. It utilises state using `useState` and and effect, `useEffect` to calculate how far the user has scrolled down the content and updates a progress bar at the top of the screen with the calculated value. It uses the return value of `useEffect` to remove the eventListener on unmount.
+This is a component I created to test the new `React 16.7.0-alpha.0` Hooks. It utilises state using `useState` and an effect, `useEffect` to calculate how far the user has scrolled down the content and updates a progress bar at the top of the screen with the calculated value. It uses the return value of `useEffect` to remove the eventListener on unmount.
 
 ## Demo
 
